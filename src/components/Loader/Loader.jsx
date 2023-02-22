@@ -1,6 +1,6 @@
 import { ProgressBar } from 'react-loader-spinner';
 import Box from '@mui/material/Box';
-// import styles from './Loader.module.css';
+
 
 export const Loader = () => {
   return (
