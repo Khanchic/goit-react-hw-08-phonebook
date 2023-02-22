@@ -43,7 +43,7 @@ export const RegisterForm = () => {
           component="h3"
           sx={{
             fontWeight: '600',
-            color: 'rgb(0, 128, 255)',
+            color: 'rgba(15, 190, 233, 1)',
             marginBottom: '12px',
           }}
         >
@@ -54,7 +54,7 @@ export const RegisterForm = () => {
           component="h5"
           sx={{
             fontWeight: '600',
-            color: 'rgb(0, 128, 255)',
+            color: 'rgba(15, 190, 233, 1)',
             marginBottom: '12px',
           }}
         >
@@ -88,7 +88,11 @@ export const RegisterForm = () => {
           type="submit"
           variant="outlined"
           fullWidth={true}
-          sx={{ marginTop: '8px' }}
+          sx={{
+            marginTop: '8px',
+            borderColor: 'rgba(15, 190, 233, 1)',
+            color: 'rgba(15, 190, 233, 1)',
+          }}
         >
           Register
         </Button>

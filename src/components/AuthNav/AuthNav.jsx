@@ -8,7 +8,7 @@ export const AuthNav = () => {
     <Box
       sx={{
         display: 'flex',
-        gap: '40px',
+        gap: '3px',
         color: 'white',
       }}
     >

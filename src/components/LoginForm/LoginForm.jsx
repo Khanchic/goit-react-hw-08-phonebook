@@ -7,6 +7,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
+
 export const LoginForm = () => {
   const dispatch = useDispatch();
 
@@ -32,7 +33,7 @@ export const LoginForm = () => {
           justifyContent: 'center',
           flexDirection: 'column',
           alignItems: 'center',
-          marginTop: '250px',
+          marginTop: '180px',
           '& .MuiTextField-root': { width: '396px' },
         }}
         autoComplete="off"
@@ -42,7 +43,7 @@ export const LoginForm = () => {
           component="h3"
           sx={{
             fontWeight: '600',
-            color: 'rgb(0, 128, 255)',
+            color: 'rgba(15, 190, 233, 1)',
             marginBottom: '12px',
           }}
         >
@@ -55,6 +56,7 @@ export const LoginForm = () => {
           variant="outlined"
           margin="dense"
           size="small"
+          
         />
         <TextField
           type="password"
@@ -70,6 +72,8 @@ export const LoginForm = () => {
           fullWidth={true}
           sx={{
             marginTop: '8px',
+            borderColor: 'rgba(15, 190, 233, 1)',
+            color: 'rgba(15, 190, 233, 1)',
           }}
         >
           Log In

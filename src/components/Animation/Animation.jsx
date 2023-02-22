@@ -4,9 +4,6 @@ import styles from './Animation.module.css';
 
 export const Animation = () => {
   const particlesInit = async main => {
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(main);
   };
 
@@ -23,7 +20,7 @@ export const Animation = () => {
           },
           particles: {
             number: {
-              value: 10,
+              value: 25,
               density: {
                 enable: false,
                 value_area: 800,

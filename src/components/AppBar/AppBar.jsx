@@ -18,9 +18,9 @@ export const AppBarComponent = () => {
           flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'space-between',
-          height: '60px',
-          padding: '0 30px',
-          backgroundColor: 'rgb(0, 128, 255)',
+          height: '75px',
+          padding: '0  30px',
+          backgroundColor: 'rgba(15, 190, 233, 1)',
         }}
       >
         <Navigation />

@@ -1,7 +1,8 @@
-/* @import-normalize; bring in normalize.css styles */
+
 
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,8 +14,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
 
-p{
-  margin-top: 0;
-  margin-bottom: 15px;
+a:hover,
+:focus {
+  background-color: rgba(25, 118, 210, 0.04);
+  color:rgb(255, 251, 0);
+}
+
+.active {
+  color: rgb(255, 251, 2);
 }

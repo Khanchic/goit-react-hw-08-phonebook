@@ -50,9 +50,9 @@ export const ContactForm = () => {
         component="h4"
         sx={{
           textAlign: 'center',
-          color: 'rgb(0, 128, 255)',
+          color: 'rgba(15, 190, 233, 1)',
           fontWeight: '600',
-          margin: '16px 0',
+          margin: '70px 0',
         }}
       >
         Welcome in your Phonebook
@@ -65,7 +65,6 @@ export const ContactForm = () => {
             onChange={handleChangeName}
             type="text"
             name="name"
-            // pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
             required
           />
