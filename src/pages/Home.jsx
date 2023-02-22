@@ -5,6 +5,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { useAuth } from 'hooks';
 import { Animation } from 'components/Animation/Animation';
+import '../components/App.module.css'
+
+
 
 export default function Home() {
   const { isLoggedIn } = useAuth();
@@ -29,7 +32,7 @@ export default function Home() {
           <Typography
             variant="h6"
             component="h6"
-            sx={{ color: '#1976d2', marginTop: '4px' }}
+            sx={{ color: 'rgba(15, 190, 233, 1)', marginTop: '4px' }}
           >
             Don't have an account yet?
           </Typography>
@@ -41,11 +44,15 @@ export default function Home() {
               width: '364px',
               textAlign: 'center',
               fontWeight: '400',
-              border: '1px solid #1976d2',
+              
             }}
           >
-            <Typography variant="h6" component="h6">
-              Register
+            <Typography variant="h6" component="h6" style={{
+              color: 'rgba(15, 190, 233, 1)', 
+              border: '1px solid rgba(15, 190, 233, 1)',
+              padding: '20px',
+            }}>
+              Registretion
             </Typography>
           </NavLink>
         </Box>

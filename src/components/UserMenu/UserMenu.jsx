@@ -27,7 +27,7 @@ export const UserMenu = () => {
         variant="outlined"
         color="error"
         sx={{
-          // border: '1px solid white',
+          
           backgroundColor: 'red',
           color: 'white',
         }}
